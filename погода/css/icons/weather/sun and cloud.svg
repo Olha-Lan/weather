@@ -1,0 +1,22 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Weather">
+<g id="Group 1808">
+<g id="Sun">
+<g id="Light">
+<path id="Vector 17" d="M32.3685 8V32.6154" stroke="#FEE25C" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4"/>
+<path id="Vector 20" d="M41.3002 11.6048L23.4364 29.0105" stroke="#FEE25C" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4"/>
+<path id="Vector 19" d="M23.4365 11.6048L41.3003 29.0105" stroke="#FEE25C" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4"/>
+<path id="Vector 18" d="M19.7368 20.3077H45" stroke="#FEE25C" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4"/>
+</g>
+<ellipse id="Ellipse 229" cx="32.3683" cy="20.3077" rx="8.42105" ry="8.20513" fill="url(#paint0_linear_21_326)"/>
+</g>
+<path id="Vector 16" d="M10.2667 42C2.73408 41.2159 3.612 28.5674 10.7957 28.4659C9.57216 14.9094 24.8186 12.0316 27.4479 21.6988C34.4693 17.8571 37.9797 22.2899 38.8413 26.5324C47.6055 28.4659 45.6804 41.1348 41.2855 42H10.2667Z" fill="#97D5FA"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_21_326" x1="32.3683" y1="12.1026" x2="32.3683" y2="28.5128" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FEE25C"/>
+<stop offset="1" stop-color="#FFBF5E"/>
+</linearGradient>
+</defs>
+</svg>

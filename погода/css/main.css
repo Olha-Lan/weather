@@ -1,0 +1,305 @@
+body {
+   margin: 0;
+   max-width: 1440px;
+}
+    
+/* Стилізація навігації */
+header {
+  width: 1440px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background: var(--main-2, #343A40);
+  /* justify-content: space-between; */
+  /* padding: 30px 37px 19.4px 38px; */
+}
+
+.logo {
+    display: flex;
+    width: 110px;
+    height: 19px;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-left: 4%;
+    position: relative;
+  }
+.logo img {
+    width: 35px;
+    height: 18.594px;
+    flex-shrink: 0;
+    left: 33px;
+    position: absolute;
+    /* margin: 30px 37px 0px 38px; */
+}
+.logo p {
+    color: #FFF;
+    font-size: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: -4px;
+    
+}
+  
+  input[type="text"] {
+    width: 530px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 5px 0px 0px 5px;
+    background: #FFF;
+    box-sizing: border-box;
+  }
+ 
+  .find {
+    width: 73px;
+    height: 40px;
+    flex-shrink: 0;
+    display: flex;
+    margin-left: 20%;
+  }
+
+  .find img {
+    cursor: pointer;
+  }
+  /* Стилізація секції з поточною погодою */
+  .current-weather {
+    display: flex;
+    width: 1440px;
+    height: 405px;
+    flex-shrink: 0;
+    align-items: center;
+    
+  }
+
+  .city-find {
+    width: 256px;
+    height: 177px;
+    flex-shrink: 0;
+    margin: 10% 7% 116px 7%;
+  }
+
+  .city-name {
+    color: var(--main-2, #343A40);
+    font-size: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .day-time {
+    color: rgba(52, 58, 64, 0.90);
+    font-size: 18px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* Стилі для дня та часу */
+  }
+  
+  .temperature {
+    color: var(--main-2, #343A40);
+    font-size: 96px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* Стилі для температури */
+  }
+  
+  .hourly-forecast {
+    display: flex;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 105px;
+    /* Стилі для блоку з годинним прогнозом */
+  }
+  
+  .forecast-block {
+    width: 87px;
+    height: 161px;
+    /* Стилі для блоку прогнозу на певну годину */
+  }
+  
+  .forecast-block .time {
+    color: rgba(52, 58, 64, 0.80);
+    text-align: center;
+    font-size: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* Стилі для часу */
+  }
+  
+  .forecast-block .weather-icon {
+    width: 59px;
+    height: 55.389px;
+    flex-shrink: 0;
+    margin-left: 15%;
+    /* Стилі для іконки погоди */
+  }
+  
+  .forecast-block .temperature-for-day {
+    color: var(--main-2, #343A40);
+    text-align: center;
+    font-size: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* Стилі для температури */
+  }
+  
+  /* Стилізація секції з додатковою інформацією */
+  .additional-info {
+    width: 1440px;
+    height: 178px;
+    flex-shrink: 0;
+    position: relative;
+    background: var(--main-2, #343A40);
+  }
+
+  .additional-info h3 {
+    color: #fcfcfc;
+    font-size: 18px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 15px;
+    position: absolute;
+    /* top: 22px; */
+  }
+
+  .weather-info {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 176px;
+    width: 1171px;
+    height: 64px;
+    margin-left: 135px;
+    margin-top: 50px;
+    
+    /* box-sizing:content-box; */
+    /* margin: 57px 135px 57px 135px; */
+    /* Стилі для інформації про погоду */
+  }
+
+  .info-label {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .info-value {
+    color: #FFF;
+    font-size: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  /* Стилізація секції з таблицею прогнозу */
+  .forecast-table {
+    width: 1440px;
+    height: 528px;
+    flex-shrink: 0;
+    
+  }
+
+  .forecast-options {
+    margin-top: 6%;
+    /* Стилі для блоку з вибором опцій прогнозу */
+  }
+
+  .forecast-options button {
+    border: none;
+    margin-right: 2%;
+    background: none;
+    cursor: pointer;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 20px;
+    color: var(--main-2, #343A40);
+  }
+  
+  .table {
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 8%;
+    padding: 0px 15px;
+    width: 83%;
+    border-collapse: collapse;
+    /* Стилі для таблиці */
+  }
+
+  .table th,
+  .table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px #696969 solid;
+  }
+
+  .table td {
+    color: #000;
+    font-size: 18px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  .table th {
+    color: var(--main-2-edit, rgba(52, 58, 64, 0.80));
+    font-size: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  /* .table thead {
+    color: var(--main-2-edit, rgba(52, 58, 64, 0.80));
+    font-size: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  } */
+  
+  /* .table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  } */
+  
+  /* .table tbody td:first-child {
+    font-weight: bold;
+  }
+   */
+  
+
+  /* .table-info {
+    display: flex;
+    border-bottom: 2px #bfc1c2 solid;
+    align-items: flex-start;
+    gap: 98px;
+    margin-top: 1%;
+  } */
+
+  /* .table-info  {
+    color: var(--main-2-edit, rgba(52, 58, 64, 0.80));
+    font-size: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 1%;
+  } */

@@ -1,0 +1,25 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Weather">
+<g id="Group 1808">
+<g id="Sun">
+<g id="Light">
+<path id="Vector 17" d="M32.3684 5V29.6154" stroke="#FEE25C" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4"/>
+<path id="Vector 20" d="M41.3001 8.60484L23.4364 26.0105" stroke="#FEE25C" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4"/>
+<path id="Vector 19" d="M23.4365 8.60484L41.3002 26.0105" stroke="#FEE25C" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4"/>
+<path id="Vector 18" d="M19.7368 17.3077H44.9999" stroke="#FEE25C" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4"/>
+</g>
+<ellipse id="Ellipse 229" cx="32.3683" cy="17.3077" rx="8.42105" ry="8.20513" fill="url(#paint0_linear_21_415)"/>
+</g>
+<path id="Vector 16" d="M10.2667 37.8205C2.73408 37.0782 3.612 25.1033 10.7957 25.0072C9.57216 12.1726 24.8186 9.44805 27.4479 18.6004C34.4693 14.9634 37.9797 19.16 38.8413 23.1767C47.6055 25.0071 45.6804 37.0014 41.2855 37.8205H10.2667Z" fill="#97D5FA"/>
+<path id="Ellipse 232" d="M35.5262 39.8718C35.5262 41.5711 34.1124 42.9487 32.3683 42.9487C30.6243 42.9487 29.2104 41.5711 29.2104 39.8718C29.2104 38.1725 32.3683 32.6923 32.3683 32.6923C32.3683 32.6923 35.5262 38.1725 35.5262 39.8718Z" fill="#5A9BFE"/>
+<path id="Ellipse 233" d="M28.1578 31.6667C28.1578 33.366 26.744 34.7436 24.9999 34.7436C23.2559 34.7436 21.842 33.366 21.842 31.6667C21.842 29.9673 24.9999 24.4872 24.9999 24.4872C24.9999 24.4872 28.1578 29.9673 28.1578 31.6667Z" fill="#5A9BFE"/>
+<path id="Ellipse 234" d="M20.7895 41.9231C20.7895 43.6224 19.3757 45 17.6316 45C15.8876 45 14.4738 43.6224 14.4738 41.9231C14.4738 40.2237 17.6316 34.7436 17.6316 34.7436C17.6316 34.7436 20.7895 40.2237 20.7895 41.9231Z" fill="#5A9BFE"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_21_415" x1="32.3683" y1="9.10257" x2="32.3683" y2="25.5128" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FEE25C"/>
+<stop offset="1" stop-color="#FFBF5E"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+</head>
+<head>
+    <title>Прогноз погоди</title>
+    <link rel="stylesheet" href="/css/main.css"> <!-- Підключіть CSS-файл для стилізації -->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/css/icons/Vector.svg" alt="">
+            <p>WeatherApp</p>
+        </div>
+        <div class="find">
+            <input type="text" placeholder="Введіть місто">
+            <img src="/css/icons/find.svg" alt="">
+        </div>
+        
+
+    </header>
+    
+    <section class="current-weather">
+        <div class="city-find">
+            <div class="city-name">
+                Одеса
+            </div>
+            <div class="day-time">
+                Понеділок 12:12
+            </div>
+            <div class="temperature">
+                24°C
+            </div>
+        </div>
+        
+        
+        <div class="hourly-forecast">
+            <div class="forecast-block">
+              <div class="time">00:00</div>
+              <div class="weather-icon">
+                <img src="" alt="">
+                <!-- Іконка погоди -->
+              </div>
+              <div class="temperature-for-day">20°C</div>
+            </div>
+            <div class="forecast-block">
+              <div class="time">05:00</div>
+              <div class="weather-icon">
+                <img src="/css/icons/weather/sun and cloud.svg" alt="">
+                <!-- Іконка погоди -->
+              </div>
+              <div class="temperature-for-day">18°C</div>
+            </div>
+            <div class="forecast-block">
+              <div class="time">10:00</div>
+              <div class="weather-icon">
+                <img src="/css/icons/weather/sun.svg" alt="">
+                <!-- Іконка погоди -->
+              </div>
+              <div class="temperature-for-day">22°C</div>
+            </div>
+            <div class="forecast-block">
+              <div class="time">15:00</div>
+              <div class="weather-icon">
+                <img src="/css/icons/weather/sun.svg" alt="">
+                <!-- Іконка погоди -->
+              </div>
+              <div class="temperature-for-day">25°C</div>
+            </div>
+            <div class="forecast-block">
+              <div class="time">20:00</div>
+              <div class="weather-icon">
+                <img src="/css/icons/weather/sun and cloud.svg" alt="">
+                <!-- Іконка погоди -->
+              </div>
+              <div class="temperature-for-day">23°C</div>
+            </div>
+          </div>
+          
+    </section>
+    
+    <section class="additional-info">
+        <h3>Зараз</h3>
+        <div class="weather-info">
+          <div class="chance-of-rain">
+            <div class="info-label">Вірогідність опадів:</div>
+            <div class="info-value">40%</div>
+          </div>
+          <div class="humidity">
+            <div class="info-label">Вологість:</div>
+            <div class="info-value">75%</div>
+          </div>
+          <div class="wind-speed">
+            <div class="info-label">Швидкість вітру:</div>
+            <div class="info-value">5 м/с</div>
+          </div>
+          <div class="visibility">
+            <div class="info-label">Видимість:</div>
+            <div class="info-value">10 км</div>
+          </div>
+          <div class="pressure">
+            <div class="info-label">Тиск:</div>
+            <div class="info-value">1012 гПа</div>
+          </div>
+        </div>
+      </section>
+      
+      
+    
+    <section class="forecast-table">
+        <div class="forecast-options">
+            <button onclick="updateForecastOptions(1)">1 день</button>
+            <button onclick="updateForecastOptions(3)">3 дні</button>
+            <button onclick="updateForecastOptions(7)">1 тиждень</button>
+            <button onclick="updateForecastOptions(10)">10 днів</button>
+          </div>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>ДЕНЬ</th>
+                <th>ВІРОГІДНІСТЬ <br> ОПАДІВ</th>
+                <th>ВОЛОГІСТЬ</th>
+                <th>ШВИДКІСТЬ <br> ВІТРУ</th>
+                <th>ВИДИМІСТЬ</th>
+                <th>ТИСК</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Понеділок</td>
+                <td>34%</td>
+                <td>57%</td>
+                <td>5 м/с</td>
+                <td>10 км</td>
+                <td>1012 гПа</td>
+              </tr>
+            </tbody>
+          </table>
+          
+    </section>
+</body>
+</html>
